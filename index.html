@@ -11,20 +11,25 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- <style>
+
+     <style>
+    @media (max-width: 768px)
+    {
         marquee
         {
-              display: inline-block;
-           
+            display: block;
         }
-        @media (max-width: 490px)
+    }
+    @media (max-width: 576px)
+    {
+        marquee
         {
-            marquee
-            {
-               display: none;
-            }
+            display: block;
         }
-    </style>
+    }
+
+</style>
+    
     
 </head>
 <body>
